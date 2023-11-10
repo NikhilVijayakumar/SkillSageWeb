@@ -3,7 +3,10 @@
 import { useState, useEffect, useContext } from 'react'
 import { Box, Paper, Typography } from '@mui/material'
 import { useParams } from 'react-router-dom'
-import { QuizViewProps, QuizTopic } from '../../repo/data/quizData'
+import {
+  QuizViewProps,
+  QuizTopic,
+} from 'skill_sage_interactor/src/features/quiz/repo/data/quizData'
 import { StateType } from 'harmony_interactor_kit/src/common/state/stateType'
 import Alert from '@mui/material/Alert'
 import CircularProgress from '@mui/material/CircularProgress'

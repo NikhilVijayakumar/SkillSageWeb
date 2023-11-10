@@ -1,5 +1,5 @@
 {
-  "name": "skill_sage",
+  "name": "skill_sage_web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "link-packages": "npm link ../HarmonyInteractorKit  ../HarmonyWebKit ../SkillSageInteractor"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -22,7 +22,7 @@ import {
   RegistrationProps,
   RegistrationEmailState,
   RegistrationPasswordState,
-} from '../../repo/data/registrationData'
+} from 'skill_sage_interactor/src/features/registration/repo/data/registrationData'
 import { useEffect } from 'react'
 import FormContainer from 'harmony_web_kit/src/common/components/form/FormContainer'
 import { defaultFormStyle } from 'harmony_web_kit/src/common/components/form/style/FormStyle'

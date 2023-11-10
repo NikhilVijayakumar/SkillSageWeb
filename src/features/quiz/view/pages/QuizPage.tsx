@@ -1,7 +1,7 @@
 //path src\features\quiz\view\pages\QuizPage.tsx
 
 import QuizView from '../components/QuizView'
-import useQuiz from '../../hooks/useQuiz'
+import useQuiz from 'skill_sage_interactor/src/features/quiz/hooks/useQuiz'
 import { useLanguage } from 'harmony_interactor_kit/src/common/localization/languageContext'
 import { useAuth } from '../../../../common/auth/authContext'
 import { UrlList } from '../../../../common/routes/UrlList'

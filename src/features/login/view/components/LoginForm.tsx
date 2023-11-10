@@ -21,7 +21,7 @@ import {
   LoginProps,
   LoginEmailState,
   LoginPasswordState,
-} from '../../repo/data/loginData'
+} from 'skill_sage_interactor/src/features/login/repo/data/loginData'
 import { useEffect } from 'react'
 import FormContainer from 'harmony_web_kit/src/common/components/form/FormContainer'
 import { defaultFormStyle } from 'harmony_web_kit/src/common/components/form/style/FormStyle'

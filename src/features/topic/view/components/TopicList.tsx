@@ -1,6 +1,10 @@
 //path src\features\topic\view\components\TopicList.tsx
 import { useContext } from 'react'
-import { TopicList, TopicListProps, Topic } from '../../repo/data/topicData'
+import {
+  TopicList,
+  TopicListProps,
+  Topic,
+} from 'skill_sage_interactor/src/features/topic/repo/data/topicData'
 import GenericList from 'harmony_web_kit/src/common/components/list/GenericList'
 import Paper from '@mui/material/Paper'
 import CircularProgress from '@mui/material/CircularProgress'

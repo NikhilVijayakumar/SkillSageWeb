@@ -1,5 +1,5 @@
 import TopicList from '../components/TopicList'
-import useTopic from '../../hooks/useTopic'
+import useTopic from 'skill_sage_interactor/src/features/topic/hooks/useTopic'
 import { useLanguage } from 'harmony_interactor_kit/src/common/localization/languageContext'
 import { useAuth } from '../../../../common/auth/authContext'
 import { UrlList } from '../../../../common/routes/UrlList'

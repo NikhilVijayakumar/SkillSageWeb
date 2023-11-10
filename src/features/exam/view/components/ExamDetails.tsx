@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 import { useState, useContext } from 'react'
 import { useParams } from 'react-router-dom'
-import { ExamDetailsProps } from '../../repo/data/examData'
+import { ExamDetailsProps } from 'skill_sage_interactor/src/features/exam/repo/data/examData'
 import { useNavigate } from 'react-router-dom'
 import { UrlList } from '../../../../common/routes/UrlList'
 import examIcon from '../../../../assets/exam_icon.png'

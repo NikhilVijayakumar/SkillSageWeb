@@ -5,15 +5,14 @@ import routes from './common/routes/routes'
 import { LanguageProvider } from 'harmony_interactor_kit/src/common/localization/LanguageProvider'
 import { ThemeProvider } from 'harmony_interactor_kit/src/common/theme/ThemeProvider'
 import { AuthProvider } from './common/auth/AuthProvider'
-import  English  from './common/localization/locales/en.json'
+import English from './common/localization/locales/en.json'
 
 const App: React.FC = () => {
   const allLanguages = []
-  const english ={languageCode: 'en',
-    literals: English }
+  const english = { languageCode: 'en', literals: English }
   allLanguages.push(english)
   return (
-    <LanguageProvider currentLanguageCode='en' allLanguages={allLanguages}>
+    <LanguageProvider currentLanguageCode="en" allLanguages={allLanguages}>
       <ThemeProvider>
         <AuthProvider>
           <Router>
